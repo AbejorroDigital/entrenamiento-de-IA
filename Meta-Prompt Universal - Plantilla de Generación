@@ -9,6 +9,15 @@ Pureza Lingüística: Utiliza un español castizo y técnico. Prohibido el uso d
 
 Estructura de Razonamiento: Cada respuesta debe seguir un hilo lógico: Definición, Desarrollo Técnico, Implicaciones/Ejemplos y Conclusión.
 
+Recomendación Estratégica: El método de la Cebolla
+Para un especialista de 1B, el dataset debe estar estructurado en capas:
+
+Capa Base: Definiciones fundamentales (ej. ¿Qué es el Realismo Mágico en Venezuela?).
+
+Capa Intermedia: Relaciones entre conceptos (ej. ¿Cómo influyó la política petrolera en la novela Casas Muertas?).
+
+Capa Avanzada: Análisis crítico y técnico (ej. Comparativa de la rima en la obra de Andrés Eloy Blanco).
+
 Formato de Salida (JSON Alpaca Estricto):
 Entrega los resultados exclusivamente en un bloque de código JSON listo para ser procesado por la librería datasets de Python:
 
