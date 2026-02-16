@@ -2,6 +2,7 @@
 
 # Llama-3.2-1B-Espanol: Crónica de una Reeducación Conceptual
 
+[![Model on Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-ffd21e)](https://huggingface.co/CEGTEdicion/Llama-3.2-1B-espanol)
 Este repositorio documenta el proceso de especialización del modelo **Llama 3.2-1B**, transformando un modelo de parámetros reducidos en un asistente académico capaz de disertar con precisión sobre ciencias biológicas y fotosíntesis en un español fluido y natural.
 
 ## 📝 Filosofía del Proyecto
