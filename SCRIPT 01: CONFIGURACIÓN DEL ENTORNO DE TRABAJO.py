@@ -1,23 +1,19 @@
 # ==============================================================================
 # SCRIPT 01: CONFIGURACIÓN DEL ENTORNO DE TRABAJO
-# Propósito: Instalación de Unsloth, dependencias de CUDA y librerías de IA.
-# Autor: CEGTEdicion
+# Propósito: Instalación de Unsloth y ecosistema de IA.
+# Nota: Se han añadido los prefijos '!' para ejecución en shell de Colab.
 # ==============================================================================
 
-# 1. Instalamos Unsloth: La herramienta principal de optimización.
-# Utilizamos la versión compatible con CUDA 12.1 (estándar en Colab/Kaggle).
-pip install "unsloth[colab-new] @ git+https://github.com/unslothai/unsloth.git"
+# 1. Instalamos Unsloth con optimización para CUDA.
+!pip install "unsloth[colab-new] @ git+https://github.com/unslothai/unsloth.git"
 
-# 2. Instalamos dependencias críticas para el manejo de tensores y optimización.
-# - xformers: Acelera la atención en la GPU.
-# - trl, peft, accelerate: El ecosistema de Hugging Face para Fine-Tuning.
-# - bitsandbytes: Para la cuantización (reducir el peso del modelo).
-pip install --no-deps xformers trl peft accelerate bitsandbytes
+# 2. Instalamos dependencias críticas de Hugging Face y aceleración.
+!pip install --no-deps xformers trl peft accelerate bitsandbytes
 
-# 3. Instalamos librerías de visualización y métricas.
-# Wandb nos servirá para monitorear el "Loss" en la nube.
-pip install wandb matplotlib 
+# 3. Instalamos librerías de monitoreo y graficación.
+!pip install wandb matplotlib 
 
-echo "--------------------------------------------------------"
-echo "Entorno configurado con éxito. Listo para el entrenamiento."
-echo "--------------------------------------------------------"
+# 4. Verificación visual del éxito de la operación.
+!echo "--------------------------------------------------------"
+!echo "Entorno configurado con éxito. Listo para el entrenamiento."
+!echo "--------------------------------------------------------"
